@@ -61,6 +61,7 @@ main h1,h2,h3{
 }
 section.sobre{
     display: flex;
+    line-height: 1.5;
 }
 article#sobreum{
     margin-top: 100px;
@@ -101,16 +102,46 @@ iframe{
 }
 div{
     background-image: linear-gradient(to right, rgb(15, 1, 31), rgb(97, 0, 187));
-    padding: 70px;
+    padding: 60px;
 }
 strong{
     font-weight: 600;
     color: rgba(0, 0, 0, 0.801);
 }
 footer{
-    text-align: center;
-    padding: 150px;
+    font-size: 1.3em;
+    display: flex;
+    padding: 40px 200px;
     border-radius: 30px;
     background-color: white;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+#direita{
+    line-height: 2.5;
+}
+#esquerda{
+    line-height: 2.5;
+}
+strong.rodapee{
+    font-weight: 100;
+    color: black;
+    margin: 0;
+}
+footer article{
+    padding: 20px;
+
+}
+footer p{
+    color: rgb(97, 97, 97);
+}
+footer a{
+    text-decoration: none;
+    color: rgb(165, 93, 231);
+}
+footer a:hover{
+    text-decoration: underline;
+    color: blueviolet;
 }
