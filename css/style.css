@@ -53,7 +53,7 @@ nav#entregues{
     margin-bottom: -15px;
 }
 nav#entregues a{
-    background-color: rgba(126, 14, 255, 0.712);
+    background-color: rgba(150, 59, 255, 0.712);
     color: white;
     padding: 5px 10px;
     border-radius: 15px;
@@ -82,18 +82,38 @@ section.sobre{
 }
 section#projeto h2{
     padding: 5px;
-    background-color: rgba(105, 7, 197, 0.637);
+    background-color: rgba(119, 0, 230, 0.356);
     color: white;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 4px black;
     text-align: center;
-    font-size: 1.8em;
-    border: 1px solid rgba(0, 0, 0, 0.178);
+    font-size: 2.2em;
+    border: 2px solid rgba(0, 0, 0, 0.178);
 }
+
 #projeto p{
     font-size: 1.2em;
     color: rgba(0, 0, 0, 0.678);
 
 }
+section#duvida article{
+    font-size: 1.5em;
+    padding: 30px;
+}
+#duvida h1{
+    font-size: 2.5em;
+    font-weight: 200;
+    padding: 80px 0 35px 130px;
+    color: rgba(0, 0, 0, 0.849);
+}
+hr{
+    margin-left: 100px;
+    width: 1300px;
+}
+#duvida p{
+    color: rgba(0, 0, 0, 0.781);
+    padding-left: 100px;
+}
+
 article#sobreum{
     margin-top: 100px;
     width: 30%;
